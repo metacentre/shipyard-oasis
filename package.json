@@ -1,6 +1,6 @@
 {
   "name": "@metacentre/shipyard-oasis",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "standard ssb plugins as found in oasis",
   "main": "index.js",
   "scripts": {
@@ -54,5 +54,16 @@
     "files": [
       "test/**/*"
     ]
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/metacentre/shipyard-oasis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metacentre/shipyard-oasis/issues"
+  },
+  "homepage": "https://github.com/metacentre/shipyard-oasis#readme"
 }
