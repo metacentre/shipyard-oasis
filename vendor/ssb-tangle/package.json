@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      "ssb-tangle@1.0.1",
+      "/home/av8ta/code/ssb/oasis"
+    ]
+  ],
+  "_from": "ssb-tangle@1.0.1",
+  "_id": "ssb-tangle@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-Miu42xjISxwQGX1J59VC1FgMmLQShILZeYXOhCL5aavoYm7nzeykrEM//pU55pVlUTAbXLttvhH56IDXTPX/Kw==",
+  "_location": "/ssb-tangle",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ssb-tangle@1.0.1",
+    "name": "ssb-tangle",
+    "escapedName": "ssb-tangle",
+    "rawSpec": "1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "1.0.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ssb-tangle/-/ssb-tangle-1.0.1.tgz",
+  "_spec": "1.0.1",
+  "_where": "/home/av8ta/code/ssb/oasis",
+  "author": {
+    "name": "mixmix"
+  },
+  "bugs": {
+    "url": "https://github.com/ssbc/ssb-tangle/issues"
+  },
+  "dependencies": {
+    "is-my-json-valid": "^2.20.0",
+    "pull-stream": "^3.6.11",
+    "ssb-ref": "^2.13.9",
+    "ssb-sort": "^1.1.3"
+  },
+  "description": "common helper methods for scuttlebutt tangles!",
+  "homepage": "https://github.com/ssbc/ssb-tangle#readme",
+  "keywords": [
+    "scuttlebutt",
+    "tangle",
+    "causal-sort"
+  ],
+  "license": "AGPL-3.0",
+  "main": "index.js",
+  "name": "ssb-tangle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssbc/ssb-tangle.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "version": "1.0.1"
+}
