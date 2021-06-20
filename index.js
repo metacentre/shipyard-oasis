@@ -1,4 +1,6 @@
 module.exports = [
+  'ssb-db',
+  'ssb-master',
   'ssb-replicate',
   'ssb-backlinks',
   'ssb-conn',
