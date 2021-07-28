@@ -1,12 +1,9 @@
 const test = require('ava')
 const shipyard = require('@metacentre/shipyard')
 const oasisPlugins = require('..')
-const oasisLeniency = require('../lenient')
 const ssbServerPlugins = require('@metacentre/shipyard-ssb')
-const ssbServerLeniency = require('@metacentre/shipyard-ssb/lenient')
 
 const plugins = [...oasisPlugins, ...ssbServerPlugins]
-const lenient = [...oasisLeniency, ...ssbServerLeniency]
 
 test.serial(
   'creates shipyard secret-stack & loads both oasis & ssb-server plugins',
@@ -19,7 +16,7 @@ test.serial(
           sign: 'qym3eJKBjm0E0OIjuh3O1VX8+lLVSGV2p5UzrMStHTs='
         }
       },
-      { plugins, lenient }
+      { plugins }
     )
 
     t.truthy(sbot)

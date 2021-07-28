@@ -1,7 +1,6 @@
 const test = require('ava')
 const shipyard = require('@metacentre/shipyard')
 const plugins = require('../')
-const lenient = require('../lenient')
 
 test.serial('creates shipyard secret-stack & loads oasis plugins', t => {
   const sbot = shipyard(
@@ -12,7 +11,7 @@ test.serial('creates shipyard secret-stack & loads oasis plugins', t => {
         sign: 'qym3eJKBjm0E0OIjuh3O1VX8+lLVSGV2p5UzrMStHTs='
       }
     },
-    { plugins, lenient }
+    { plugins }
   )
 
   t.truthy(sbot)

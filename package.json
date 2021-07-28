@@ -1,6 +1,6 @@
 {
   "name": "@metacentre/shipyard-oasis",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "standard ssb plugins as found in oasis",
   "main": "index.js",
   "scripts": {
@@ -45,8 +45,8 @@
     "ssb-ws": "^6.2.3"
   },
   "devDependencies": {
-    "@metacentre/shipyard": "^1.0.3",
-    "@metacentre/shipyard-ssb": "^1.0.2",
+    "@metacentre/shipyard": "^1.1.2",
+    "@metacentre/shipyard-ssb": "^1.1.0",
     "ava": "^3.15.0",
     "rimraf": "^3.0.2"
   },
